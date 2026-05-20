@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Tracker | Premium</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Chart.js for visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    
+    <main class="container">
+        <header class="glass-panel text-center">
+            <h1 class="gradient-text">Carbon Footprint Tracker</h1>
+            <p class="subtitle">Understand and reduce your impact on the planet.</p>
+        </header>
+
+        <div class="glass-panel main-content">
+            <form id="footprint-form" class="form-grid">
+                <!-- Form fields will be dynamically injected here by JS -->
+                <div class="loading-state" id="loading-indicator">
+                    <div class="spinner"></div>
+                    <p>Loading your personalized form...</p>
+                </div>
+                <div id="form-fields-container" class="fields-container hide"></div>
+                
+                <div class="action-row hide" id="form-actions">
+                    <button type="submit" class="btn-primary" id="calculate-btn">
+                        <span>Calculate Footprint</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </div>
+            </form>
+
+            <div id="result-section" class="result-section hide">
+                <h2 class="result-title">Your Estimated Impact</h2>
+                <div class="result-value">
+                    <span id="emission-value">0</span>
+                    <span class="unit">kg CO₂</span>
+                </div>
+                <!-- Small visual gauge could be here -->
+                <button class="btn-secondary mt-20" id="recalculate-btn">Recalculate</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

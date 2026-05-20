@@ -1,0 +1,134 @@
+{
+  "categorical": {
+    "Body Type": [
+      "overweight",
+      "obese",
+      "underweight",
+      "normal"
+    ],
+    "Sex": [
+      "female",
+      "male"
+    ],
+    "Diet": [
+      "pescatarian",
+      "vegetarian",
+      "omnivore",
+      "vegan"
+    ],
+    "How Often Shower": [
+      "daily",
+      "less frequently",
+      "more frequently",
+      "twice a day"
+    ],
+    "Heating Energy Source": [
+      "coal",
+      "natural gas",
+      "wood",
+      "electricity"
+    ],
+    "Transport": [
+      "public",
+      "walk/bicycle",
+      "private"
+    ],
+    "Vehicle Type": [
+      "petrol",
+      "diesel",
+      "hybrid",
+      "lpg",
+      "electric"
+    ],
+    "Social Activity": [
+      "often",
+      "never",
+      "sometimes"
+    ],
+    "Frequency of Traveling by Air": [
+      "frequently",
+      "rarely",
+      "never",
+      "very frequently"
+    ],
+    "Waste Bag Size": [
+      "large",
+      "extra large",
+      "small",
+      "medium"
+    ],
+    "Energy efficiency": [
+      "No",
+      "Sometimes",
+      "Yes"
+    ],
+    "Recycling": [
+      "['Metal']",
+      "['Paper', 'Plastic', 'Glass', 'Metal']",
+      "['Paper']",
+      "['Paper', 'Glass', 'Metal']",
+      "[]",
+      "['Paper', 'Plastic', 'Glass']",
+      "['Glass']",
+      "['Paper', 'Plastic']",
+      "['Plastic']",
+      "['Plastic', 'Glass', 'Metal']",
+      "['Paper', 'Plastic', 'Metal']",
+      "['Paper', 'Glass']",
+      "['Paper', 'Metal']",
+      "['Glass', 'Metal']",
+      "['Plastic', 'Glass']",
+      "['Plastic', 'Metal']"
+    ],
+    "Cooking_With": [
+      "['Stove', 'Oven']",
+      "['Stove', 'Microwave']",
+      "['Oven', 'Microwave']",
+      "['Microwave', 'Grill', 'Airfryer']",
+      "['Oven']",
+      "['Stove', 'Oven', 'Microwave']",
+      "['Grill', 'Airfryer']",
+      "['Stove']",
+      "['Stove', 'Oven', 'Microwave', 'Grill', 'Airfryer']",
+      "['Oven', 'Microwave', 'Grill', 'Airfryer']",
+      "['Stove', 'Grill', 'Airfryer']",
+      "['Oven', 'Grill', 'Airfryer']",
+      "['Microwave']",
+      "['Stove', 'Oven', 'Grill', 'Airfryer']",
+      "['Stove', 'Microwave', 'Grill', 'Airfryer']",
+      "[]"
+    ]
+  },
+  "numeric": {
+    "Monthly Grocery Bill": {
+      "min": 50.0,
+      "max": 299.0,
+      "mean": 173.8752
+    },
+    "Vehicle Monthly Distance Km": {
+      "min": 0.0,
+      "max": 9999.0,
+      "mean": 2031.4859
+    },
+    "Waste Bag Weekly Count": {
+      "min": 1.0,
+      "max": 7.0,
+      "mean": 4.0246
+    },
+    "How Long TV PC Daily Hour": {
+      "min": 0.0,
+      "max": 24.0,
+      "mean": 12.1392
+    },
+    "How Many New Clothes Monthly": {
+      "min": 0.0,
+      "max": 50.0,
+      "mean": 25.109
+    },
+    "How Long Internet Daily Hour": {
+      "min": 0.0,
+      "max": 24.0,
+      "mean": 11.8891
+    }
+  }
+}
